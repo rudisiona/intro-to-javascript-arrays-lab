@@ -2,7 +2,6 @@
 // Exercise 1: Define an empty array
 
 const foods = [];  
-
 console.log('Exercise 1 result:', foods);
 
 
@@ -54,7 +53,6 @@ console.log('Exercise 7 result:', yummy);
 // Exercise 8: Finding an index
 
 const soyIdx = foods.indexOf('tofu')
-
 console.log('Exercise 8 result:', soyIdx);
 
 
@@ -83,7 +81,6 @@ nums.forEach((num) => {
         odds.push(num);
     }
 })
-
 console.log('Exercise 11 result:', odds);
 
 
@@ -93,8 +90,6 @@ console.log('Exercise 11 result:', odds);
 const fizz = []
 const buzz = []
 const fizzbuzz = []
-
-
 
 nums. forEach((num) => {
     if (num % 3 === 0){
